@@ -1,0 +1,96 @@
+.edit_panel {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  padding-top: 150px;
+  height: 720px;
+}
+
+h2 {
+  margin-bottom: 50px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.form-group-checkForm {
+  margin-bottom: 20px;
+  text-align: left;
+  display: flex;
+}
+
+label {
+  display: block;
+}
+
+.switch-item {
+  margin-top: -3.2px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-color: black;
+  border: none;
+  border-bottom: solid 1px white;
+  color: white;
+  text-decoration: none;
+}
+
+button {
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  border: solid 1px white;
+  padding: 0.625em;
+  font-size: 0.875em;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+.back_to_list:hover {
+  background-color: white;
+  color: black;
+}
+.back_to_list {
+  font-weight: 100;
+  font-size: 0.875em;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  border: solid 1px white;
+  padding-top: 0.625em;
+  padding-bottom: 0.625em;
+  transition: background-color 0.5s, color 0.5s;
+}
+.rola {
+  background-color: black;
+  color: white;
+}
+select {
+  /* Stylowanie tła i obramowania */
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+  /* Stylowanie czcionki i marginesów */
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 6px 10px;
+  width: 200px;
+}

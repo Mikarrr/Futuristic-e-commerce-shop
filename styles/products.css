@@ -1,0 +1,53 @@
+.product_section {
+  display: grid;
+  grid-row: 20px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+  justify-content: center;
+  justify-items: center;
+  padding-top: 50px;
+  height: 750px;
+}
+
+.product {
+  grid-row: 2;
+  display: grid;
+  width: 75%;
+}
+.massage {
+  grid-row: 1;
+  grid-column: 2;
+  display: grid;
+  width: 75%;
+  justify-content: center;
+  justify-items: center;
+}
+
+.product img {
+  width: 400px;
+}
+
+.quantity_input {
+  color: white;
+  background-color: black;
+  border: solid 1px white;
+  width: 30px;
+  padding: 0.625em;
+  font-size: 0.875em;
+}
+
+.add_button {
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", Arial, sans-serif;
+  border: solid 1px white;
+  background-color: black;
+  padding: 0.625em;
+  font-size: 0.875em;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.add_button:hover {
+  background-color: white;
+  color: black;
+}

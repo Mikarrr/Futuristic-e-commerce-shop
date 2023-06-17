@@ -1,0 +1,28 @@
+.my-account-panel {
+  display: grid;
+  height: 750px;
+  margin-top: 140px;
+  grid-template-rows: 100px 100px 200px 100px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.pannel-info {
+  display: grid;
+  grid-template-rows: 50px;
+  justify-items: center;
+  justify-content: center;
+}
+
+.header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: left;
+}
+
+.justify {
+  display: flex !important;
+  justify-content: right !important;
+}

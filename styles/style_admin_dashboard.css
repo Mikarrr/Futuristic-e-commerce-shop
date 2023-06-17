@@ -1,0 +1,57 @@
+table {
+  width: 60%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding-right: 40px;
+  padding-bottom: 23px;
+  text-align: left;
+  border-bottom: none;
+}
+
+.btn {
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  border: solid 1px white;
+  padding: 0.625em;
+  font-size: 0.875em;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.crud_panel {
+  display: grid;
+  padding-top: 150px;
+  height: 1000px;
+  justify-content: center;
+}
+
+button {
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  border: solid 1px white;
+  padding: 0.625em;
+  font-size: 0.875em;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: left;
+}
+
+.justify {
+  display: flex !important;
+  justify-content: right !important;
+}
